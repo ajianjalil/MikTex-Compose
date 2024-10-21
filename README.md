@@ -41,5 +41,6 @@ To compile the LaTeX document in this repository, you will need the following:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/thermal-image-processing-review.git
+   git clone https://github.com/ajianjalil/MikTex-Compose.git
    cd thermal-image-processing-review
+   ```
