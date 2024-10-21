@@ -1,0 +1,152 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\renewcommand{\bibname} {REFERENCES}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{textcomp}
+
+
+\title{
+\vspace{-3.4cm}
+\begin{center}
+{\Large \textbf{Research Methodology Assignment 1}}\\
+\vspace{0.5cm}
+Submitted By:\\
+\vspace{0.2cm}
+\begin{large}
+{\textbf{Ajithkumar A K}}\\
+\textbf{[CB.AI.R4CEN24009]}\\
+\end{large}
+\end{center}
+}
+
+\begin{document}
+\maketitle
+
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+
+\pagestyle{fancy}
+\rhead{\thepage}
+\chead{}
+% \lhead{\textit{GUIDANCE PERFORMANCE ANALYSIS FOR BLIND NAVIGATION SYSTEM USING NEURAL LEARNING IMAGE RECOGNITION}}
+
+% \lfoot{\textit{Dept.Of Information Technology, Govt.Engg.College,Sreekrishnapuram }}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\paragraph{ }How can computer vision techniques improve the accuracy of thermal camera surveillance systems, addressing challenges such as low resolution, thermal noise, and varying environmental conditions?
+\section{Research Question}
+\paragraph{ } do the text here
+\newpage
+\section{SCOPE}
+\paragraph{ }The existing systems cannot identify objects
+
+%=====================================================================================================
+\chapter{Literature Review on Thermal Image Processing Techniques}
+
+In this chapter, we review the selected research papers related to thermal image enhancement, object detection, environmental adaptation, and deep learning architectures. These works provide insights into current methods and technologies used in the processing of thermal images.
+
+\section{Image Enhancement Techniques}
+
+Thermal images often suffer from poor contrast and noise, making enhancement techniques essential for improving image quality. Below are some significant contributions to this field:
+
+\subsection{"Thermal Image Enhancement using Histogram Equalization" (2020)}
+This paper focuses on enhancing the contrast of thermal images using Histogram Equalization (HE). HE redistributes the intensity values to improve image clarity and is particularly useful for thermal images in low-contrast conditions.
+
+\subsection{"Noise Reduction in Thermal Images using Deep Learning" (2019)}
+The authors present a deep learning-based approach for reducing noise in thermal images. By using convolutional neural networks (CNNs), the proposed method outperforms traditional denoising techniques, effectively preserving important image details.
+
+\subsection{"Contrast Enhancement for Thermal Images using CLAHE" (2018)}
+This study introduces the application of Contrast Limited Adaptive Histogram Equalization (CLAHE) for thermal images. CLAHE enhances the local contrast of an image, ensuring that fine details are visible, making it well-suited for enhancing thermal imagery in various lighting conditions.
+
+\section{Object Detection and Tracking}
+
+Detecting and tracking objects in thermal images has become a critical area of research, especially for surveillance and autonomous navigation systems. The following works are important contributions to this domain:
+
+\subsection{"YOLO-based Object Detection in Thermal Images" (2022)}
+This paper applies the You Only Look Once (YOLO) algorithm for real-time object detection in thermal images. The method shows high accuracy and speed, making it suitable for applications requiring rapid thermal image processing.
+
+\subsection{"Thermal Object Tracking using Deep Learning" (2020)}
+A deep learning-based approach is proposed for tracking objects in thermal images. The method leverages recurrent neural networks (RNNs) to maintain object tracking even when thermal image quality is degraded by environmental factors.
+
+\subsection{"Pedestrian Detection in Thermal Images using HOG+SVM" (2019)}
+In this study, the authors use a combination of Histogram of Oriented Gradients (HOG) and Support Vector Machines (SVM) for pedestrian detection in thermal images. The hybrid approach provides accurate detection, particularly in low-visibility conditions.
+
+\section{Environmental Adaptation}
+
+Thermal imaging systems used in outdoor environments face challenges due to changing weather conditions and thermal drift. Below are some key contributions addressing these issues:
+
+\subsection{"Thermal Camera Calibration for Outdoor Surveillance" (2021)}
+This paper presents methods for calibrating thermal cameras for outdoor surveillance, ensuring that images are correctly aligned and adjusted for outdoor lighting conditions. The technique improves the reliability of thermal surveillance systems.
+
+\subsection{"Compensating for Thermal Drift in Outdoor Surveillance" (2020)}
+Thermal drift, caused by changes in ambient temperature, can significantly degrade image quality. This paper introduces techniques to compensate for such drift, allowing more stable imaging in outdoor environments.
+
+\subsection{"Weather-Resistant Thermal Imaging using Fusion Techniques" (2019)}
+The authors propose a fusion-based approach to create weather-resistant thermal imaging systems. By combining thermal data with other sensor modalities, the technique enhances image quality under varying environmental conditions, such as rain or fog.
+
+\section{Deep Learning Architectures}
+
+Deep learning has revolutionized thermal image processing by offering powerful models capable of complex tasks like classification and segmentation. The following papers discuss state-of-the-art architectures applied to thermal images:
+
+\subsection{"Convolutional Neural Networks for Thermal Image Classification" (2022)}
+This paper reviews the use of convolutional neural networks (CNNs) for classifying thermal images. By training CNNs on large datasets, the authors achieve high accuracy in recognizing objects within thermal imagery.
+
+\subsection{"Thermal Image Segmentation using U-Net" (2021)}
+U-Net, a deep learning model known for its superior performance in image segmentation tasks, is applied to thermal images in this paper. The approach demonstrates significant improvements in segmenting thermal images, which is crucial for applications such as medical imaging and surveillance.
+
+\subsection{"Deep Learning-based Thermal Image Denoising" (2020)}
+The authors propose a deep learning architecture for denoising thermal images. By utilizing autoencoders, the model effectively reduces noise while preserving essential features, improving the clarity of thermal images.
+
+\section{Conclusion}
+The reviewed papers present a wide range of methodologies for enhancing, detecting, and adapting thermal images, as well as applying deep learning architectures. These techniques contribute to the development of robust thermal imaging systems, applicable in fields such as surveillance, autonomous vehicles, and medical imaging.
+
+
+%========================================================================================================
+\chapter{EXPERIMENTAL SETTINGS}
+\section{SYSTEM REQUIREMENTS}
+\begin{itemize}
+\item Microsoft® Windows® 8.1/10 (32 or 64-bit).
+\item 2 GB RAM minimum.
+\item 400 MB hard disk space.
+\item At least 1 GB for Android SDK, emulator system images, and caches.
+\item 1280 x 800 minimum screen resolution.
+\item Java Development Kit (JDK) 7.
+\item Optional for accelerated emulator: Intel® processor with support for Intel® VT-x, Intel® EM64T (Intel® 64), and Execute Disable (XD) Bit functionality.
+
+\end{itemize}
+\section{SOFTWARE SECTION}
+\begin{itemize}
+\item Android SDK version 18 or higher: It is the software development kit developed
+by android which helps developers to create software.
+\item Google API: It is the application programming interface provided by google in
+which developers can interface their application with google services like google
+map etc.
+\item TTS: It is another application service provided by the android which helps to
+convert text into speech.
+\item Android studio 5.0: It is the SDK which helps android programming easier.
+\item OpenCV.
+\end{itemize}
+\section{HARDWARE SECTION}
+\begin{itemize}
+\item Arduino UNO : It is micro-controller which is used in the hardware part which
+receives information from ultrasonic sensor and sends this data to a Smartphone
+via a Bluetooth module attached to it.
+\item Ultrasonic sensor (HC-SR04): It is an ultrasonic sensor which detects obstacles
+in-front of the user and gives information to the micro-controller attached to it.
+\item Bluetooth module (HC-06): It is connected to the micro-controller, sends instructions
+to the Smartphone whenever obstacle is detected in-front of the user.
+\item Smartphone: Any Smartphone which has android OS can be used which has access
+to the Google services and have a compass inbuilt in it.
+\end{itemize}
+\end{document}

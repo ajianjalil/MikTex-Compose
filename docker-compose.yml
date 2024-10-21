@@ -1,0 +1,13 @@
+services:
+  miktex:
+    image: miktex/miktex:essential
+    container_name: miktex_container
+    volumes:
+      - miktex:/var/lib/miktex
+      - ./work:/miktex/work
+    environment:
+      - MIKTEX_UID=${MIKTEX_UID:-1000}  # Default UID set to 1000 if not provided
+    command: pdflatex main.tex
+
+volumes:
+  miktex:
