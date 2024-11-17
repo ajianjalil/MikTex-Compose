@@ -1,0 +1,143 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chen2021}
+Peihao Chen, Deng Huang, Dongliang He, Xiang Long, Runhao Zeng, Shilei Wen,
+  Mingkui Tan, and Chuang Gan.
+\newblock Rspnet: Relative speed perception for unsupervised video
+  representation learning.
+\newblock In {\em 35th AAAI Conference on Artificial Intelligence, AAAI 2021},
+  volume~2A, 2021.
+
+\bibitem{dave2022tclr}
+Ishan Dave, Rohit Gupta, Mamshad~Nayeem Rizve, and Mubarak Shah.
+\newblock Tclr: Temporal contrastive learning for video representation.
+\newblock {\em Computer Vision and Image Understanding}, 219:103406, 2022.
+
+\bibitem{dave2022spact}
+Ishan~Rajendrakumar Dave, Chen Chen, and Mubarak Shah.
+\newblock Spact: Self-supervised privacy preservation for action recognition.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 20164--20173, 2022.
+
+\bibitem{ding2022motion}
+Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue
+  Wang, and Hongkai Xiong.
+\newblock Motion-aware contrastive video representation learning via
+  foreground-background merging.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 9716--9726, 2022.
+
+\bibitem{Ding2022}
+Shuangrui Ding, Maomao Li, Tianyu Yang, Rui Qian, Haohang Xu, Qingyi Chen, Jue
+  Wang, and Hongkai Xiong.
+\newblock Motion-aware contrastive video representation learning via
+  foreground-background merging.
+\newblock In {\em Proceedings of the IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition}, volume 2022-June, 2022.
+
+\bibitem{duan2022transrank}
+Haodong Duan, Nanxuan Zhao, Kai Chen, and Dahua Lin.
+\newblock Transrank: Self-supervised video representation learning via
+  ranking-based transformation recognition.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 3000--3010, 2022.
+
+\bibitem{huang2021ascnet}
+Deng Huang, Wenhao Wu, Weiwen Hu, Xu~Liu, Dongliang He, Zhihua Wu, Xiangmiao
+  Wu, Mingkui Tan, and Errui Ding.
+\newblock Ascnet: Self-supervised video representation learning with
+  appearance-speed consistency.
+\newblock In {\em Proceedings of the IEEE/CVF international conference on
+  computer vision}, pages 8096--8105, 2021.
+
+\bibitem{kini2023egocentric}
+Jyoti Kini, Sarah Fleischer, Ishan Dave, and Mubarak Shah.
+\newblock Egocentric rgb+ depth action recognition in industry-like settings.
+\newblock {\em arXiv preprint arXiv:2309.13962}, 2023.
+
+\bibitem{kuang2021video}
+Haofei Kuang, Yi~Zhu, Zhi Zhang, Xinyu Li, Joseph Tighe, S{\"o}ren
+  Schwertfeger, Cyrill Stachniss, and Mu~Li.
+\newblock Video contrastive learning with global context.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 3195--3204, 2021.
+
+\bibitem{Liang2022}
+Hanwen Liang, Niamul Quader, Zhixiang Chi, Lizhe Chen, Peng Dai, Juwei Lu, and
+  Yang Wang.
+\newblock Self-supervised spatiotemporal representation learning by exploiting
+  video continuity.
+\newblock In {\em Proceedings of the 36th AAAI Conference on Artificial
+  Intelligence, AAAI 2022}, volume~36, 2022.
+
+\bibitem{Lin2021}
+Yuanze Lin, Xun Guo, and Yan Lu.
+\newblock Self-supervised video representation learning with meta-contrastive
+  network.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, 2021.
+
+\bibitem{Pan2021}
+Tian Pan, Yibing Song, Tianyu Yang, Wenhao Jiang, and Wei Liu.
+\newblock Videomoco: Contrastive video representation learning with temporally
+  adversarial examples.
+\newblock In {\em Proceedings of the IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition}, 2021.
+
+\bibitem{qian2021spatiotemporal}
+Rui Qian, Tianjian Meng, Boqing Gong, Ming-Hsuan Yang, Huisheng Wang, Serge
+  Belongie, and Yin Cui.
+\newblock Spatiotemporal contrastive video representation learning.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 6964--6974, 2021.
+
+\bibitem{rahman2022surprising}
+Farrukh Rahman, {\"O}mer Mubarek, and Zsolt Kira.
+\newblock On the surprising effectiveness of transformers in low-labeled video
+  recognition.
+\newblock {\em arXiv preprint arXiv:2209.07474}, 2022.
+
+\bibitem{Rizve2022OpenLDNLT}
+Mamshad~Nayeem Rizve, Navid Kardan, Salman~H. Khan, Fahad~Shahbaz Khan, and
+  Mubarak Shah.
+\newblock Openldn: Learning to discover novel classes for open-world
+  semi-supervised learning.
+\newblock {\em ArXiv}, abs/2207.02261, 2022.
+
+\bibitem{Singh2021SemiSupervisedAR}
+Ankit Singh, Omprakash Chakraborty, Ashutosh Varshney, Rameswar Panda,
+  Rog{\'e}rio~Schmidt Feris, Kate Saenko, and Abir Das.
+\newblock Semi-supervised action recognition with temporal contrastive
+  learning.
+\newblock {\em 2021 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 10384--10394, 2021.
+
+\bibitem{Xiao2021LearningFT}
+Junfei Xiao, Longlong Jing, Lin Zhang, Ju~He, Qi~She, Zongwei Zhou, Alan~Loddon
+  Yuille, and Yingwei Li.
+\newblock Learning from temporal gradient for semi-supervised action
+  recognition.
+\newblock {\em 2022 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 3242--3252, 2021.
+
+\bibitem{xing2023svformer}
+Zhen Xing, Qi~Dai, Han Hu, Jingjing Chen, Zuxuan Wu, and Yu-Gang Jiang.
+\newblock Svformer: Semi-supervised video transformer for action recognition.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 18816--18826, 2023.
+
+\bibitem{Zhang2022}
+Yujia Zhang, Lai~Man Po, Xuyuan Xu, Mengyang Liu, Yexin Wang, Weifeng Ou, Yuzhi
+  Zhao, and Wing~Yin Yu.
+\newblock Contrastive spatio-temporal pretext learning for self-supervised
+  video representation.
+\newblock In {\em Proceedings of the 36th AAAI Conference on Artificial
+  Intelligence, AAAI 2022}, volume~36, 2022.
+
+\bibitem{Zou2021LearningRI}
+Yuliang Zou, Jinwoo Choi, Qitong Wang, and Jia-Bin Huang.
+\newblock Learning representational invariances for data-efficient action
+  recognition.
+\newblock {\em ArXiv}, abs/2103.16565, 2021.
+
+\end{thebibliography}

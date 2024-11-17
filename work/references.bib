@@ -1,0 +1,211 @@
+@article{kini2023egocentric,
+  title={Egocentric RGB+ Depth Action Recognition in Industry-Like Settings},
+  author={Kini, Jyoti and Fleischer, Sarah and Dave, Ishan and Shah, Mubarak},
+  journal={arXiv preprint arXiv:2309.13962},
+  year={2023}
+}
+
+
+@inproceedings{xing2023svformer,
+  title={Svformer: Semi-supervised video transformer for action recognition},
+  author={Xing, Zhen and Dai, Qi and Hu, Han and Chen, Jingjing and Wu, Zuxuan and Jiang, Yu-Gang},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={18816--18826},
+  year={2023}
+}
+
+@article{Rizve2022OpenLDNLT,
+  title={OpenLDN: Learning to Discover Novel Classes for Open-World Semi-Supervised Learning},
+  author={Mamshad Nayeem Rizve and Navid Kardan and Salman H. Khan and Fahad Shahbaz Khan and Mubarak Shah},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2207.02261},
+  url={https://api.semanticscholar.org/CorpusID:250311589}
+}
+
+@article{Singh2021SemiSupervisedAR,
+  title={Semi-Supervised Action Recognition with Temporal Contrastive Learning},
+  author={Ankit Singh and Omprakash Chakraborty and Ashutosh Varshney and Rameswar Panda and Rog{\'e}rio Schmidt Feris and Kate Saenko and Abir Das},
+  journal={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2021},
+  pages={10384-10394},
+  url={https://api.semanticscholar.org/CorpusID:231802182}
+}
+
+@article{Zou2021LearningRI,
+  title={Learning Representational Invariances for Data-Efficient Action Recognition},
+  author={Yuliang Zou and Jinwoo Choi and Qitong Wang and Jia-Bin Huang},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2103.16565},
+  url={https://api.semanticscholar.org/CorpusID:232417385}
+}
+
+@article{Xiao2021LearningFT,
+  title={Learning from Temporal Gradient for Semi-supervised Action Recognition},
+  author={Junfei Xiao and Longlong Jing and Lin Zhang and Ju He and Qi She and Zongwei Zhou and Alan Loddon Yuille and Yingwei Li},
+  journal={2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2021},
+  pages={3242-3252},
+  url={https://api.semanticscholar.org/CorpusID:244709803}
+}
+
+@inproceedings{kuang2021video,
+  title={Video contrastive learning with global context},
+  author={Kuang, Haofei and Zhu, Yi and Zhang, Zhi and Li, Xinyu and Tighe, Joseph and Schwertfeger, S{\"o}ren and Stachniss, Cyrill and Li, Mu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3195--3204},
+  year={2021}
+}
+
+@inproceedings{qian2021spatiotemporal,
+  title={Spatiotemporal contrastive video representation learning},
+  author={Qian, Rui and Meng, Tianjian and Gong, Boqing and Yang, Ming-Hsuan and Wang, Huisheng and Belongie, Serge and Cui, Yin},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={6964--6974},
+  year={2021}
+}
+
+@inproceedings{Chen2021,
+   abstract = {We study unsupervised video representation learning that seeks to learn both motion and appearance features from unlabeled video only, which can be reused for downstream tasks such as action recognition. This task, however, is extremely challenging due to 1) the highly complex spatial-temporal information in videos and 2) the lack of labeled data for training. Unlike representation learning for static images, it is difficult to construct a suitable self-supervised task to effectively model both motion and appearance features. More recently, several attempts have been made to learn video representation through video playback speed prediction. However, it is non-trivial to obtain precise speed labels for the videos. More critically, the learned models may tend to focus on motion patterns and thus may not learn appearance features well. In this paper, we observe that the relative playback speed is more consistent with motion patterns and thus provides more effective and stable supervision for representation learning. Therefore, we propose a new way to perceive the playback speed and exploit the relative speed between two video clips as labels. In this way, we are able to effectively perceive speed and learn better motion features. Moreover, to ensure the learning of appearance features, we further propose an appearance-focused task, where we enforce the model to perceive the appearance difference between two video clips. We show that jointly optimizing the two tasks consistently improves the performance on two downstream tasks (namely, action recognition and video retrieval) w.r.t the increasing pre-training epochs. Remarkably, for action recognition on the UCF101 dataset, we achieve 93.7% accuracy without the use of labeled data for pre-training, which outperforms the ImageNet supervised pre-trained model. Our code, pre-trained models, and supplementary materials can be found at https://github.com/PeihaoChen/RSPNet.},
+   author = {Peihao Chen and Deng Huang and Dongliang He and Xiang Long and Runhao Zeng and Shilei Wen and Mingkui Tan and Chuang Gan},
+   doi = {10.1609/aaai.v35i2.16189},
+   issn = {2159-5399},
+   booktitle = {35th AAAI Conference on Artificial Intelligence, AAAI 2021},
+   title = {RSPNet: Relative Speed Perception for Unsupervised Video Representation Learning},
+   volume = {2A},
+   year = {2021},
+}
+@inproceedings{Zhang2022,
+   abstract = {Spatio-temporal representation learning is critical for video self-supervised representation. Recent approaches mainly use contrastive learning and pretext tasks. However, these approaches learn representation by discriminating sampled instances via feature similarity in the latent space while ignoring the intermediate state of the learned representations, which limits the overall performance. In this work, taking into account the degree of similarity of sampled instances as the intermediate state, we propose a novel pretext task - spatiotemporal overlap rate (STOR) prediction. It stems from the observation that humans are capable of discriminating the overlap rates of videos in space and time. This task encourages the model to discriminate the STOR of two generated samples to learn the representations. Moreover, we employ a joint optimization combining pretext tasks with contrastive learning to further enhance the spatio-temporal representation learning. We also study the mutual influence of each component in the proposed scheme. Extensive experiments demonstrate that our proposed STOR task can favor both contrastive learning and pretext tasks. The joint optimization scheme can significantly improve the spatio-temporal representation in video understanding. The code is available at https://github.com/Katou2/CSTP.},
+   author = {Yujia Zhang and Lai Man Po and Xuyuan Xu and Mengyang Liu and Yexin Wang and Weifeng Ou and Yuzhi Zhao and Wing Yin Yu},
+   doi = {10.1609/aaai.v36i3.20248},
+   issn = {2159-5399},
+   booktitle = {Proceedings of the 36th AAAI Conference on Artificial Intelligence, AAAI 2022},
+   title = {Contrastive Spatio-Temporal Pretext Learning for Self-Supervised Video Representation},
+   volume = {36},
+   year = {2022},
+}
+@inproceedings{Pan2021,
+   abstract = {MoCo [11] is effective for unsupervised image representation learning. In this paper, we propose VideoMoCo for unsupervised video representation learning. Given a video sequence as an input sample, we improve the temporal feature representations of MoCo from two perspectives. First, we introduce a generator to drop out several frames from this sample temporally. The discriminator is then learned to encode similar feature representations regardless of frame removals. By adaptively dropping out different frames during training iterations of adversarial learning, we augment this input sample to train a temporally robust encoder. Second, we use temporal decay to model key attenuation in the memory queue when computing the contrastive loss. As the momentum encoder updates after keys enqueue, the representation ability of these keys degrades when we use the current input sample for contrastive learning. This degradation is reflected via temporal decay to attend the input sample to recent keys in the queue. As a result, we adapt MoCo to learn video representations without empirically designing pretext tasks. By empowering the temporal robustness of the encoder and modeling the temporal decay of the keys, our VideoMoCo improves MoCo temporally based on contrastive learning. Experiments on benchmark datasets including UCF101 and HMDB51 show that VideoMoCo stands as a state-of-the-art video representation learning method.},
+   author = {Tian Pan and Yibing Song and Tianyu Yang and Wenhao Jiang and Wei Liu},
+   doi = {10.1109/CVPR46437.2021.01105},
+   issn = {10636919},
+   booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+   title = {VideoMoCo: Contrastive Video Representation Learning with Temporally Adversarial Examples},
+   year = {2021},
+}
+@inproceedings{Liang2022,
+   abstract = {Recent self-supervised video representation learning methods have found significant success by exploring essential properties of videos, e.g. speed, temporal order, etc. This work exploits an essential yet under-explored property of videos, the video continuity, to obtain supervision signals for self-supervised representation learning. Specifically, we formulate three novel continuity-related pretext tasks, i.e. continuity justification, discontinuity localization, and missing section approximation, that jointly supervise a shared backbone for video representation learning. This self-supervision approach, termed as Continuity Perception Network (CPNet), solves the three tasks altogether and encourages the backbone network to learn local and long-ranged motion and context representations. It outperforms prior arts on multiple downstream tasks, such as action recognition, video retrieval, and action localization. Additionally, the video continuity can be complementary to other coarse-grained video properties for representation learning, and integrating the proposed pretext task to prior arts can yield much performance gains.},
+   author = {Hanwen Liang and Niamul Quader and Zhixiang Chi and Lizhe Chen and Peng Dai and Juwei Lu and Yang Wang},
+   doi = {10.1609/aaai.v36i2.20047},
+   issn = {2159-5399},
+   booktitle = {Proceedings of the 36th AAAI Conference on Artificial Intelligence, AAAI 2022},
+   title = {Self-Supervised Spatiotemporal Representation Learning by Exploiting Video Continuity},
+   volume = {36},
+   year = {2022},
+}
+@inproceedings{Lin2021,
+   abstract = {Self-supervised learning has been successfully applied to pre-train video representations, which aims at efficient adaptation from pre-training domain to downstream tasks. Existing approaches merely leverage contrastive loss to learn instance-level discrimination. However, lack of category information will lead to hard-positive problem that constrains the generalization ability of this kind of methods. We find that the multi-task process of meta learning can provide a solution to this problem. In this paper, we propose a Meta-Contrastive Network (MCN), which combines the contrastive learning and meta learning, to enhance the learning ability of existing self-supervised approaches. Our method contains two training stages based on model-agnostic meta learning (MAML), each of which consists of a contrastive branch and a meta branch. Extensive evaluations demonstrate the effectiveness of our method. For two downstream tasks, i.e., video action recognition and video retrieval, MCN outperforms state-of-the-art approaches on UCF101 and HMDB51 datasets. To be more specific, with R(2+1)D backbone, MCN achieves Top-1 accuracies of 84.8% and 54.5% for video action recognition, as well as 52.5% and 23.7% for video retrieval.},
+   author = {Yuanze Lin and Xun Guo and Yan Lu},
+   doi = {10.1109/ICCV48922.2021.00813},
+   issn = {15505499},
+   booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+   title = {Self-Supervised Video Representation Learning with Meta-Contrastive Network},
+   year = {2021},
+}
+@inproceedings{Ding2022,
+   abstract = {In light of the success of contrastive learning in the image domain, current self-supervised video representation learning methods usually employ contrastive loss to facilitate video representation learning. When naively pulling two augmented views of a video closer, the model however tends to learn the common static background as a shortcut but fails to capture the motion information, a phenomenon dubbed as background bias. Such bias makes the model suffer from weak generalization ability, leading to worse performance on downstream tasks such as action recognition. To alleviate such bias, we propose Foreground-background Merging (FAME) to deliberately compose the moving foreground region of the selected video onto the static background of others. Specifically, without any off-the-shelf detector, we extract the moving fore-ground out of background regions via the frame difference and color statistics, and shuffle the background regions among the videos. By leveraging the semantic consistency between the original clips and the fused ones, the model focuses more on the motion patterns and is debiased from the background shortcut. Extensive experiments demonstrate that FAME can effectively resist background cheating and thus achieve the state-of-the-art performance on downstream tasks across UCF101, HMDB51, and Diving48 datasets. The code and configurations are released at https://github.com/Mark12Ding/FAME.},
+   author = {Shuangrui Ding and Maomao Li and Tianyu Yang and Rui Qian and Haohang Xu and Qingyi Chen and Jue Wang and Hongkai Xiong},
+   doi = {10.1109/CVPR52688.2022.00949},
+   issn = {10636919},
+   booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+   title = {Motion-aware Contrastive Video Representation Learning via Foreground-background Merging},
+   volume = {2022-June},
+   year = {2022},
+}
+@inproceedings{Jenni2021,
+   abstract = {We introduce a novel self-supervised contrastive learning method to learn representations from unlabelled videos. Existing approaches ignore the specifics of input distortions, e.g., by learning invariance to temporal transformations. Instead, we argue that video representation should preserve video dynamics and reflect temporal manipulations of the input. Therefore, we exploit novel constraints to build representations that are equivariant to temporal transformations and better capture video dynamics. In our method, relative temporal transformations between augmented clips of a video are encoded in a vector and contrasted with other transformation vectors. To support temporal equivariance learning, we additionally propose the self-supervised classification of two clips of a video into 1. overlapping 2. ordered, or 3. unordered. Our experiments show that time-equivariant representations achieve state-of-the-art results in video retrieval and action recognition benchmarks on UCF101, HMDB51, and Diving48.},
+   author = {Simon Jenni and Hailin Jin},
+   doi = {10.1109/ICCV48922.2021.00982},
+   issn = {15505499},
+   booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+   title = {Time-Equivariant Contrastive Video Representation Learning},
+   year = {2021},
+}
+@article{Qian2024,
+   abstract = {This paper focuses on self-supervised video representation learning. Most existing approaches follow the contrastive learning pipeline to construct positive and negative pairs by sampling different clips. However, this formulation tends to bias the static background and has difficulty establishing global temporal structures. The major reason is that the positive pairs, i.e., different clips sampled from the same video, have limited temporal receptive fields, and usually share similar backgrounds but differ in motions. To address these problems, we propose a framework to jointly utilize local clips and global videos to learn from detailed region-level correspondence as well as general long-term temporal relations. Based on a set of designed controllable augmentations, we implement accurate appearance and motion pattern alignment through soft spatio-temporal region contrast. Our formulation avoids the low-level redundancy shortcut with an adversarial mutual information minimization objective to improve the generalization ability. Moreover, we introduce local-global temporal order dependency to further bridge the gap between clip-level and video-level representations for robust temporal modeling. Extensive experiments demonstrate that our framework is superior on three video benchmarks in action recognition and video retrieval, and captures more accurate temporal dynamics.},
+   author = {Rui Qian and Weiyao Lin and John See and Dian Li},
+   doi = {10.1007/s44267-023-00034-7},
+   issue = {1},
+   journal = {Visual Intelligence},
+   title = {Controllable augmentations for video representation learning},
+   volume = {2},
+   year = {2024},
+}
+@inproceedings{Behrmann2021,
+   abstract = {Self-supervised video representation methods typically focus on the representation of temporal attributes in videos. However, the role of stationary versus non-stationary attributes is less explored: Stationary features, which remain similar throughout the video, enable the prediction of video-level action classes. Non-stationary features, which represent temporally varying attributes, are more beneficial for downstream tasks involving more fine-grained temporal understanding, such as action segmentation. We argue that a single representation to capture both types of features is sub-optimal, and propose to decompose the representation space into stationary and non-stationary features via contrastive learning from long and short views, i.e. long video sequences and their shorter sub-sequences. Stationary features are shared between the short and long views, while non-stationary features aggregate the short views to match the corresponding long view. To empirically verify our approach, we demonstrate that our stationary features work particularly well on an action recognition downstream task, while our non-stationary features perform better on action segmentation. Furthermore, we analyse the learned representations and find that stationary features capture more temporally stable, static attributes, while non-stationary features encompass more temporally varying ones.},
+   author = {Nadine Behrmann and Mohsen Fayyaz and Juergen Gall and Mehdi Noroozi},
+   doi = {10.1109/ICCV48922.2021.00911},
+   issn = {15505499},
+   booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+   title = {Long Short View Feature Decomposition via Contrastive Video Representation Learning},
+   year = {2021},
+}
+@inproceedings{Huang2021,
+   abstract = {We study self-supervised video representation learning, which is a challenging task due to 1) lack of labels for explicit supervision; 2) unstructured and noisy visual information. Existing methods mainly use contrastive loss with video clips as the instances and learn visual representation by discriminating instances from each other, but they need a careful treatment of negative pairs by either relying on large batch sizes, memory banks, extra modalities or customized mining strategies, which inevitably includes noisy data. In this paper, we observe that the consistency between positive samples is the key to learn robust video representation. Specifically, we propose two tasks to learn appearance and speed consistency, respectively. The appearance consistency task aims to maximize the similarity between two clips of the same video with different playback speeds. The speed consistency task aims to maximize the similarity between two clips with the same playback speed but different appearance information. We show that optimizing the two tasks jointly consistently improves the performance on downstream tasks, e.g., action recognition and video retrieval. Remarkably, for action recognition on the UCF-101 dataset, we achieve 90.8% accuracy without using any extra modalities or negative pairs for unsupervised pretraining, which outperforms the ImageNet supervised pretrained model. Codes and models will be available.},
+   author = {Deng Huang and Wenhao Wu and Weiwen Hu and Xu Liu and Dongliang He and Zhihua Wu and Xiangmiao Wu and Mingkui Tan and Errui Ding},
+   doi = {10.1109/ICCV48922.2021.00799},
+   issn = {15505499},
+   booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+   title = {ASCNet: Self-supervised Video Representation Learning with Appearance-Speed Consistency},
+   year = {2021},
+}
+@article{rahman2022surprising,
+  title={On the surprising effectiveness of transformers in low-labeled video recognition},
+  author={Rahman, Farrukh and Mubarek, {\"O}mer and Kira, Zsolt},
+  journal={arXiv preprint arXiv:2209.07474},
+  year={2022}
+}
+
+@inproceedings{dave2022spact,
+  title={Spact: Self-supervised privacy preservation for action recognition},
+  author={Dave, Ishan Rajendrakumar and Chen, Chen and Shah, Mubarak},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20164--20173},
+  year={2022}
+}
+
+@inproceedings{duan2022transrank,
+  title={Transrank: Self-supervised video representation learning via ranking-based transformation recognition},
+  author={Duan, Haodong and Zhao, Nanxuan and Chen, Kai and Lin, Dahua},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={3000--3010},
+  year={2022}
+}
+
+@article{dave2022tclr,
+  title={Tclr: Temporal contrastive learning for video representation},
+  author={Dave, Ishan and Gupta, Rohit and Rizve, Mamshad Nayeem and Shah, Mubarak},
+  journal={Computer Vision and Image Understanding},
+  volume={219},
+  pages={103406},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@inproceedings{huang2021ascnet,
+  title={Ascnet: Self-supervised video representation learning with appearance-speed consistency},
+  author={Huang, Deng and Wu, Wenhao and Hu, Weiwen and Liu, Xu and He, Dongliang and Wu, Zhihua and Wu, Xiangmiao and Tan, Mingkui and Ding, Errui},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={8096--8105},
+  year={2021}
+}
+
+@inproceedings{ding2022motion,
+  title={Motion-aware contrastive video representation learning via foreground-background merging},
+  author={Ding, Shuangrui and Li, Maomao and Yang, Tianyu and Qian, Rui and Xu, Haohang and Chen, Qingyi and Wang, Jue and Xiong, Hongkai},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={9716--9726},
+  year={2022}
+}

@@ -1,6 +1,10 @@
 services:
   miktex:
-    image: miktex/miktex:essential
+    build:
+      context: .
+      args:
+        - NODE_ENV=local
+      dockerfile: Dockerfile
     container_name: miktex_container
     volumes:
       - miktex:/var/lib/miktex
