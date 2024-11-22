@@ -1,0 +1,213 @@
+%AMRITA UNIVERSITY PH.D latex template...Created by 
+%Chungath Srinivasan, CYS-CBE%
+
+\documentclass[a4paper, 12pt]{report}
+\renewcommand{\familydefault}{\rmdefault}
+%\renewcommand{\bibname}{References}
+\usepackage[margin=0.8in]{geometry}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{bold-extra}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+%\usepackage[a4paper,top=30mm,bottom=30mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\graphicspath{{images/}}
+\usepackage{amsthm}
+%\usepackage{hyperref}
+%\hypersetup{colourlinks=true,linkcolour=blue}
+\usepackage{array}
+%\usepackage{parskip}
+\usepackage{cite}
+\usepackage{longtable}
+\usepackage{fancyhdr}
+\usepackage{titletoc}
+\theoremstyle{definition}
+\newtheorem{Definition}{Definition}[section]
+
+%-------------------------------------------------------------
+% title page
+\begin{document}
+	\pagenumbering{gobble}
+	\thispagestyle{empty}
+	\begin{large}
+		\begin{center}
+			{\Large\bfseries{TITLE OF YOUR THESIS}}\\
+			\vspace{1.3cm}
+			A Thesis \\
+			\vspace{.1cm}
+			Submitted in partial fulfilment for the Degree of\\
+			\vspace{.1cm}
+			Doctor of Philosophy under the\\
+			\vspace{.1cm}
+			Faculty of Engineering / Faculty of Science (\textit{write as per your registration})\\
+			\vspace{1cm}
+			by\\ \vspace{0.2cm}
+			\vspace{.1cm}
+			{\Large\bfseries{WRITE YOUR NAME}} \\ \vspace{3cm}
+			
+			\includegraphics[scale=0.8]{univA.png}\\
+			\vfill
+			YOUR DEPARTMENT / CENTRE NAME\\
+			\Large{\textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large COIMBATORE CAMPUS (INDIA)}\\
+			\vspace*{.3cm}
+			Month Year
+		\end{center}
+	\end{large}
+	%------------------------------------------------------------------------------------
+	% bonafide certificate
+	\newpage
+	\begin{center}
+		
+		{\large YOUR DEPARTMENT / CENTRE NAME}\\
+		\Large{ \textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+			{\large COIMBATORE CAMPUS}\\
+		\vspace*{2.2cm}
+		%\includegraphics[width=5cm,height=5cm,keepaspectratio]{university.jpg}
+		\includegraphics[scale=0.8]{univa.png}\\
+		\vspace*{1.5cm}
+		{\Large \textbf{BONAFIDE CERTIFICATE}}
+	\end{center}
+	\vspace*{.8cm}
+	\noindent This is to certify that the thesis entitled \enquote{\textbf{Thesis title}} submitted by \textbf{Name of the Student., Reg. No:............,} for the award of the \textbf{Degree of Doctor of Philosophy} under the \textbf{Faculty of Engineering} is a bonafide record of the work carried out by him/her under my guidance and supervision at \enquote{your department/centre}, Amrita Vishwa Vidyapeetham, Coimbatore Campus.\\
+	\vspace*{0.5cm}
+	\vfill
+\begin{center}
+		\textbf{Name of the Thesis Advisor}\\
+	Thesis Advisor,\\
+	Thesis advisor's designation,\\
+	Department of Computer Science and Engineering (\textit{your dept.}),\\
+	Amrita Vishwa Vidyapeetham,\\
+	Coimbatore Campus,\\
+	India.
+\end{center}
+
+	%-------------------------------------------------------------------------------
+	% Declaration page
+	\newpage
+	\begin{center}
+	{\large YOUR DEPARTMENT / CENTRE NAME}\\
+	\Large{ \textbf{AMRITA VISHWA VIDYAPEETHAM}}\\
+
+	{\large COIMBATORE CAMPUS}\\
+		
+	
+		\vspace*{2.5cm}
+		\large {\textbf{DECLARATION}}
+		\vspace*{.3cm}
+	\end{center}
+	
+	\noindent I,\textbf{ Name of the Student.},  \textbf{Reg. No:......}, hereby declare that this thesis entitled \enquote{\textbf{Thesis Title}} is the record of the original work done by me under the guidance of \textbf{Name of Thesis Advisor}, his/her designation, Name of the Department, Amrita Vishwa Vidyapeetham, Coimbatore Campus. To the best of my knowledge, this work has not formed the basis for the award of any degree/diploma/associateship/fellowship or a similar award to any candidate in any University.\\\\
+	
+	\vspace*{1cm}
+	\noindent{\bf Place:\hfill Signature of the Student} \\
+	\noindent {\bf Date: }
+	\vfill
+	\begin{center}
+		\large{COUNTERSIGNED}\\
+	\end{center}
+	\vspace{0.6in}
+	
+\begin{center}
+		\textbf{Name of Thesis Advisor}\\
+	Thesis Advisor,\\
+	Thesis advisor's designation, 
+	Thesis advisor's department \\ Amrita Vishwa Vidyapeetham,\\
+	Coimbatore Campus,\\
+	India.
+\end{center}
+	
+	%-----------------------------------------------------------------------------
+	\clearpage
+	\pagenumbering{roman}
+	\tableofcontents
+	
+	\chapter*{Acknowledgements}
+	\addcontentsline{toc}{chapter}{Acknowledgements}	
+	Write your acknowledgements in this page.\\
+	\vspace{1cm}
+	\begin{flushright}
+		(your name in CAPS)
+	\end{flushright}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{List of figures}
+	\listoftables
+	\addcontentsline{toc}{chapter}{List of tables}
+	\newpage
+%\chapter*{Abbreviations}
+\section*{{\huge Abbreviations}\hfill} \addcontentsline{toc}{chapter}{\textbf{Abbreviations}}
+\vspace{1.2cm}
+\begin{tabular}{lll}
+%\vspace{.5cm}
+TT ~~~~&--&~~~~ Truth Table	\\
+ANF ~~~~&--&~~~~ Algebraic Normal Form\\
+\end{tabular}	
+\newpage
+\section*{{\huge List of symbols}\hfill} \addcontentsline{toc}{chapter}{\textbf{List of symbols}}
+\vspace{1.2cm}
+\begin{tabular}{lll}
+		$ {F}_q $ ~~~~&--&~~~~ Finite field with \textit{q} elements\\
+	
+$ \oplus $	~~~~&--&~~~~ Exclusive or (XOR)\\
+
+\end{tabular}
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Write your abstract here xxxxxxxxxxxxxxxxxxxxxx \\
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introduction}
+\input{chapters/introduction}
+\chapter{Second Chapters Title}
+\input{chapters/chapter2}
+\chapter{Third Chapters Title}
+\input{chapters/chapter3}
+\chapter{Fourth Chapters Title}
+\input{chapters/chapter4} 
+\chapter{Fifth Chapters Title}
+\input{chapters/chapter5}
+\chapter{Sixth Chapters Title}
+\input{chapters/chapter6}
+\chapter{Seventh Chapters Title}
+\input{chapters/chapter7}
+\chapter{Conclusion and Scope for further Research}
+\input{chapters/conclusion}
+\appendix
+\chapter{title of appendix}
+\input{chapters/appendix}
+
+%\addcontentsline{toc}{chapter}{\textbf{References}}
+\newpage
+\renewcommand{\bibname}{References}
+\bibliographystyle{ieeetr}
+\addcontentsline{toc}{chapter}{References}
+\bibliography{mybib}
+
+\chapter*{List of Publications \\ \large(Based on the Research Work)}
+\addcontentsline{toc}{chapter}{List of Publications Based on the Research Work}
+\textbf{\Large Papers Published}
+\begin{enumerate}
+	\item Mr. X, Mr. Y, and Mr.Z "Measuring fusion in Super Ciphers using Stat Test Meth", Journal of Sciences, 22.1, 2018: 13-21.
+	\item Mr. X, Mr. P, and Mr.Z . "Complexity of Algorithms", artificial intelligence, IGI Global, 2018: 220-232.
+	
+\end{enumerate}\vspace{0.4cm}
+
+\noindent \textbf{\Large Papers Communicated}
+\begin{enumerate}
+	\item [5.] Mr. X, Mr. U, Mr. V and Mr.Z , "Efficient Computations in Operating Systems", (Communicated in Sept. 2018).
+\end{enumerate}
+
+\end{document}
+	
+	

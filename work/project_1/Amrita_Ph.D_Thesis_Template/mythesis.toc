@@ -1,0 +1,38 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acknowledgements}{iii}{}%
+\contentsline {chapter}{List of figures}{iv}{}%
+\contentsline {chapter}{List of tables}{v}{}%
+\contentsline {chapter}{\textbf {Abbreviations}}{vi}{}%
+\contentsline {chapter}{\textbf {List of symbols}}{vii}{}%
+\contentsline {chapter}{Abstract}{viii}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}title of first section in this chapter}{1}{}%
+\contentsline {section}{\numberline {1.2}second section if any}{1}{}%
+\contentsline {section}{\numberline {1.3}third section if any}{1}{}%
+\contentsline {section}{\numberline {1.4}fourth section if any}{1}{}%
+\contentsline {section}{\numberline {1.5}fifth section if any}{1}{}%
+\contentsline {chapter}{\numberline {2}Second Chapters Title}{2}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2.2}Write your section title}{2}{}%
+\contentsline {section}{\numberline {2.3}Write your second section title}{2}{}%
+\contentsline {subsection}{\numberline {2.3.1}write your subsection if any}{2}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}subsection if any}{2}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}Is a subsubsection if any}{2}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.3}Molucular biology}{2}{}%
+\contentsline {subsection}{\numberline {2.3.2}your sub section if any}{3}{}%
+\contentsline {subsection}{\numberline {2.3.3}This is your subsection}{3}{}%
+\contentsline {chapter}{\numberline {3}Third Chapters Title}{4}{}%
+\contentsline {section}{\numberline {3.1}title of first section of this chap}{4}{}%
+\contentsline {chapter}{\numberline {4}Fourth Chapters Title}{5}{}%
+\contentsline {section}{\numberline {4.1}title of first section of this chap}{5}{}%
+\contentsline {chapter}{\numberline {5}Fifth Chapters Title}{6}{}%
+\contentsline {section}{\numberline {5.1}title of first section of this chap}{6}{}%
+\contentsline {chapter}{\numberline {6}Sixth Chapters Title}{7}{}%
+\contentsline {section}{\numberline {6.1}title of first section in this chapter}{7}{}%
+\contentsline {chapter}{\numberline {7}Seventh Chapters Title}{8}{}%
+\contentsline {section}{\numberline {7.1}title of first section in this chapter}{8}{}%
+\contentsline {chapter}{\numberline {8}Conclusion and Scope for further Research}{9}{}%
+\contentsline {chapter}{\numberline {A}title of appendix}{10}{}%
+\contentsline {chapter}{References}{11}{}%
+\contentsline {chapter}{List of Publications Based on the Research Work}{12}{}%
+\contentsfinish 

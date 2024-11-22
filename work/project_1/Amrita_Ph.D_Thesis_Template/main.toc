@@ -1,0 +1,37 @@
+\contentsline {chapter}{\numberline {1}Recommendation Systems: Implementation and Analysis}{iii}%
+\contentsline {section}{\numberline {1.1}Summary}{iii}%
+\contentsline {section}{\numberline {1.2}Collaborative Filtering}{iii}%
+\contentsline {section}{\numberline {1.3}Singular Value Decomposition (SVD)}{iii}%
+\contentsline {section}{\numberline {1.4}CUR Decomposition}{iii}%
+\contentsline {section}{\numberline {1.5}Dataset Description}{iv}%
+\contentsline {section}{\numberline {1.6}Outcomes}{iv}%
+\contentsline {section}{\numberline {1.7}Evaluation Metrics and Insights}{iv}%
+\contentsline {chapter}{\numberline {2}Introduction}{vi}%
+\contentsline {section}{\numberline {2.1}Types of Recommender Systems}{vi}%
+\contentsline {section}{\numberline {2.2}Why Focus on Collaborative Methods and Matrix Factorization in This Project}{vii}%
+\contentsline {chapter}{\numberline {3}Dataset Details}{ix}%
+\contentsline {section}{\numberline {3.1}Dataset Structure}{ix}%
+\contentsline {section}{\numberline {3.2}Significance of Dense Submatrices}{ix}%
+\contentsline {section}{\numberline {3.3}Justification for Dataset Suitability}{ix}%
+\contentsline {section}{\numberline {3.4}Summary}{x}%
+\contentsline {chapter}{\numberline {4}Methodology Overview}{xi}%
+\contentsline {section}{\numberline {4.1}Data Cleaning and Preparation}{xi}%
+\contentsline {section}{\numberline {4.2}Implementation of Algorithms}{xi}%
+\contentsline {subsection}{\numberline {4.2.1}Singular Value Decomposition (SVD)}{xi}%
+\contentsline {subsection}{\numberline {4.2.2}CUR Decomposition}{xi}%
+\contentsline {section}{\numberline {4.3}Step-by-Step Code Breakdown}{xi}%
+\contentsline {subsection}{\numberline {4.3.1}SVD Class}{xi}%
+\contentsline {subsection}{\numberline {4.3.2}CUR Class}{xii}%
+\contentsline {section}{\numberline {4.4}Code Flow}{xii}%
+\contentsline {subsection}{\numberline {4.4.1}SVD Flow}{xii}%
+\contentsline {subsection}{\numberline {4.4.2}CUR Flow}{xii}%
+\contentsline {section}{\numberline {4.5}Usage}{xiii}%
+\contentsline {subsection}{\numberline {4.5.1}SVD}{xiii}%
+\contentsline {subsection}{\numberline {4.5.2}CUR}{xiii}%
+\contentsline {chapter}{\numberline {5}Results and Analysis}{xiv}%
+\contentsline {section}{\numberline {5.1}Performance Metrics}{xiv}%
+\contentsline {subsection}{\numberline {5.1.1}Accuracy Comparison}{xiv}%
+\contentsline {subsection}{\numberline {5.1.2}Computational Efficiency}{xiv}%
+\contentsline {section}{\numberline {5.2}Observations on Accuracy and Computational Efficiency}{xiv}%
+\contentsline {subsection}{\numberline {5.2.1}Accuracy}{xiv}%
+\contentsline {subsection}{\numberline {5.2.2}Computational Efficiency}{xv}%
